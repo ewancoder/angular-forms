@@ -1,0 +1,31 @@
+{
+  "name": "ewancoder-angular-forms",
+  "version": "0.1.0-alpha.1",
+  "description": "Angular forms.",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -p src -w",
+    "build": "rm -rf lib && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewancoder/angular-forms"
+  },
+  "keywords": ["Angular", "Forms"],
+  "author": "ewancoder@gmail.com",
+  "bugs": {
+    "url": "https://github.com/ewancoder/angular-forms"
+  },
+  "homepage": "https://github.com/ewancoder/angular-forms#readme",
+  "dependencies": {
+    "@angular/common": "^2.4.6",
+    "@angular/core": "^2.4.6",
+    "@angular/forms": "^2.4.6",
+    "ewancoder-angular-localization": "^0.1.0-alpha.9",
+    "rxjs": "^5.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.1.5"
+  }
+}
