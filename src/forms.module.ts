@@ -1,6 +1,6 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LocalizationModule } from 'ewancoder-angular-localization';
+import { LocalizationModule } from '@ewancoder/angular-localization';
 import { ValidatorComponent } from './validator.component';
 
 @NgModule({
